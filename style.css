@@ -1,0 +1,129 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #e0f2f7;
+    color: #333;
+}
+
+header {
+    background-color: #1abc9c;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; 
+}
+
+.container-header {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-footer {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.chatgpt {
+    flex: 1;
+    text-align: right;
+}
+
+.chatgpt h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+main {
+    padding: 20px 0;
+    padding-top: 60px; /* Ajuste o valor para a altura do header */
+}
+
+.info {
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 30vh; 
+}
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.news-item {
+    width: 100%;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.big-idea {
+    width: 100%;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.idea-content {
+    text-align: center;
+}
+footer {
+    background-color: #008CBA;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 10; 
+}
+
